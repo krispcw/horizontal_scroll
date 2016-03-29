@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Horizontal Scrolling</title>
+<style type="text/css">
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    
+}
+h2 {text-align:center; padding-bottom:10px}
+
+#wrapper {
+
+    margin: 30px auto;
+    border:0px ;
+ 
+    padding:10px 0 25px 0;
+}
+#outer-wrap {
+
+    margin:0 auto;
+    overflow: auto; 
+  
+    border:0px ; 
+}
+#inner-wrap {
+    float:left;
+    margin-right:-999em;
+    padding-left:20px;
+}
+.floatbox {
+    float:left; /*force into block level for dimensions*/
+    width:200px;
+    height:200px;
+    background:blue;
+    color:#FFF;
+    margin:20px 20px 0 0;
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="outer-wrap">
+        <div id="inner-wrap"> 
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div> 
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>
+            <div class="floatbox"><p>Floated Container</p></div>    
+        </div>
+    </div>
+</div>
+</body>
+</html>
